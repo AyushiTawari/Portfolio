@@ -585,7 +585,8 @@ footer p { color: var(--muted); font-size: 13.5px; margin: 0; }
       <section id="contact" className="wrap">
         <Reveal from="up" className="contact">
           <h2>Let's work together.</h2>
-          <p>Open to data scientist and applied AI/ML roles. I usually reply within a day.</p>
+          <p>Open to data scientist and applied AI/ML roles. 
+            <br/>Have a project or an opportunity in mind? I'd love to hear about it.</p>
           <div className="contact-links">
             <a className="btn btn-primary" href="mailto:ayushitawari03@gmail.com"><Mail size={16} /> ayushitawari03@gmail.com</a>
             <a className="btn btn-ghost" href="https://www.linkedin.com/in/ayushi-tawari-26186a2b9/" target="_blank" rel="noreferrer"><Linkedin size={16} /> LinkedIn</a>
