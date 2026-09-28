@@ -263,7 +263,7 @@ html { scroll-behavior: smooth; }
 .bg-video { position: fixed; inset: 0; width: 100%; height: 100%; transform: scale(1.06);object-fit: cover; z-index: 0; opacity: 0.85; }
 .bg-video-overlay { position: fixed; inset: 0; z-index: 0; background: linear-gradient(180deg, rgba(6, 21, 35, 0.28), rgba(3, 13, 23, 0.45)); pointer-events: none; }
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 32px; position: relative; z-index: 1; }
-#about, #experience, #projects{ scroll-margin-top: 80px; }
+#about, #experience, #projects{ scroll-margin-top: 70px; }
 #education, #hobbies, #contact  { scroll-margin-top: 40px; } 
 a { color: inherit; }
 
@@ -438,7 +438,7 @@ section { min-height: 100vh; padding: 100px 0; display: flex; flex-direction: co
 footer { border-top: 1px solid var(--line); padding: 28px 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; position: relative; z-index: 1; }
 footer p { color: var(--muted); font-size: 13.5px; margin: 0; }
 .footer-icons { display: flex; gap: 10px; }
-
+.monica-note { margin: 20px auto 0; max-width: 750px; text-align: center; font-size: 1.00rem; line-height: 1.6; opacity: 0.75; font-style: italic;}
 @media (prefers-reduced-motion: reduce) {
   .reveal, .scroll-cue, .hero-tagline-row, .hero-name { opacity: 1 !important; transform: none !important; animation: none !important; transition: none !important; }
   .hero-name-bar { display: none; }
@@ -528,9 +528,13 @@ footer p { color: var(--muted); font-size: 13.5px; margin: 0; }
           <Reveal from="left" className="about-body">
             <h2>About me</h2>
             <p>
-              I'm a B.Tech CSE graduate in Artificial Intelligence &amp; Data Engineering with hands-on experience across machine learning,
-              <br />
-              agentic AI, and backend development.
+              I'm a B.Tech graduate in Artificial Intelligence &amp; Data Engineering with
+              hands-on experience across machine learning, agentic AI, and backend
+              development. 
+              <br/>
+              <br/>I'm a positive and curious person who enjoys building
+              things, exploring new ideas, and turning problems into practical
+              solutions.
             </p>
             <p className="about-quote">My goal is simple: turn complex problems into reliable, useful products.</p>
           </Reveal>
@@ -571,6 +575,10 @@ footer p { color: var(--muted); font-size: 13.5px; margin: 0; }
       <section id="hobbies" className="wrap">
         <Reveal from="left" className="section-head"><h2>Hobbies</h2></Reveal>
         <Reveal from="up"><HobbiesMarquee items={hobbies} /></Reveal>
+        <p className="monica-note">
+          “A little Monica at heart — I like things organized, plans thought through,
+          and somehow still end up enjoying the chaos.”
+        </p>
       </section>
 
       {/* CONTACT */}
